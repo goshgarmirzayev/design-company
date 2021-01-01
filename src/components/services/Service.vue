@@ -26,7 +26,7 @@ a {
 html,
 body {
   height: 100%;
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
   font-size: 16px;
 }
 

@@ -15,8 +15,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-body{
-  font-family: 'Nunito', sans-serif;
-}
-</style>
