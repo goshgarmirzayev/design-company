@@ -1,12 +1,12 @@
 <template>
   <div>
-    <Navbar />
+    <Navbar/>
     <div class="site-content">
-        <banner></banner>
+      <banner></banner>
       <service-total></service-total>
-      <OurAdvantages />
-      <Contact />
+      <OurAdvantages/>
       <portfolio-total></portfolio-total>
+      <Contact />
     </div>
 
     <Footer />

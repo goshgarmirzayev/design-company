@@ -10,12 +10,7 @@
         >
       </div>
     </div>
-        <div class="row">
-          <Portfolio/>
-          <Portfolio/>
-          <Portfolio/>
-          <Portfolio/>
-          <Portfolio/>
+        <div class="row" style="justify-content:center">
           <Portfolio/>
           <Portfolio/>
           <Portfolio/>

@@ -10,12 +10,7 @@
         >
       </div>
     </div>
-    <div class="row">
-      <Service />
-      <Service />
-      <Service />
-      <Service />
-      <Service />
+    <div class="row" style="justify-content:center">
       <Service />
       <Service />
       <Service />
@@ -23,6 +18,7 @@
       <Service />
       <Service />
     </div>
+    <hr>
   </div>
 </template>
 <script>

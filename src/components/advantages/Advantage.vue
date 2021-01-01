@@ -36,9 +36,9 @@ export default {
 }
 </script>
 <style scoped>
-*{
+/* *{
     font-weight: 700;
-}
+} */
 
 .col-1{
     text-align: end;

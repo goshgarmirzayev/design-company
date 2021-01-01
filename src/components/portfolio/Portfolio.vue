@@ -1,106 +1,145 @@
 <template>
-  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
-    <a class="card1" href="#">
-      <h3>This is option 1</h3>
-      <p class="small">
-        Card description with lots of great facts and interesting details.
-      </p>
-      <div class="go-corner" href="#">
-        <div class="go-arrow">
-          <i class="fa fa-plus"></i>
-        </div>
+  
+  
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto ">
+         <div class="ver_mas text-center">
+            <span  class="lnr lnr-eye"><i class="fa fa-link"></i></span>
+         </div>
+         <article class="text-left">
+            <h2>TÍTULO DE <br>LA IMAGEN</h2>
+            <h4>Descripción corta de la imagen en cuestión</h4>
+         </article>
+         <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
       </div>
-    </a>
-  </div>
 </template>
+<script>
+export default {
+  props: {
+    name:[String],
+    content:[String],
+    slug:[String],
+    description:[String]
+  },
+  
+}
+</script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
-* {
-  transition: all 0.6s ease-out;
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #8186a3;
 }
 
-a {
-  text-decoration: none !important;
+.contenedor {
+	height: 100%;
+	padding: 5% 0;
 }
 
-h3 {
-  color: #262626;
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: 700;
-  margin-bottom: 4px;
+h1 {
+	color: #FCFBFA;
 }
 
-p {
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 20px;
-  color: #666666;
+.container_foto {
+	background-color: rgba(57, 62, 93, 0.7);
+	padding: 0;
+	overflow: hidden;
+	max-width: 350px;
+	margin: 5px;
 }
 
-p.small {
-  font-size: 14px;
+.container_foto article {
+	padding: 10%;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
-.go-corner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  background-color: #00838d;
-  border-radius: 0 4px 0 32px;
+.container_foto h2 {
+	color: #fff;
+	font-weight: 800;
+	font-size: 25px;
+	border-bottom: #fff solid 1px;
 }
 
-.go-arrow {
-  margin-top: -4px;
-  margin-right: -4px;
-  color: white;
-  font-family: courier, sans;
+.container_foto h4 {
+	font-weight: 300;
+	color: #fff;
+	font-size: 16px;
 }
 
-.card1 {
-  display: block;
-  position: relative;
-  background-color: #f2f8f9;
-  border-radius: 4px;
-  padding: 32px 24px;
-  margin: 12px;
-  text-decoration: none;
-  z-index: 0;
-  overflow: hidden;
+.container_foto img {
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+	-webkit-transition: all 4s ease;
+	-moz-transition: all 4s ease;
+	-o-transition: all 4s ease;
+	-ms-transition: all 4s ease;
+	transition: all 4s ease;
 }
 
-.card1:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -16px;
-  right: -16px;
-  background: #00838d;
-  height: 32px;
-  width: 32px;
-  border-radius: 32px;
-  transform: scale(1);
-  transform-origin: 50% 50%;
-  transition: transform 0.25s ease-out;
+.ver_mas {
+	background-color: #FEB66C;
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	bottom: 0;
+	z-index: 1;
+	opacity: 0;
+	transform: translate(0px, 70px);
+	-webkit-transform: translate(0px, 70px);
+	-moz-transform: translate(0px, 70px);
+	-o-transform: translate(0px, 70px);
+	-ms-transform: translate(0px, 70px);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
-.card1:hover:before {
-  transform: scale(100);
+.ver_mas span {
+	font-size: 40px;
+	color: #fff;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	top: 13px;
 }
 
-.card1:hover p {
-  transition: all 0.3s ease-out;
-  color: rgba(255, 255, 255, 0.8);
+
+/*hovers*/
+
+.container_foto:hover {
+	cursor: pointer;
 }
 
-.card1:hover h3 {
-  transition: all 0.3s ease-out;
-  color: #ffffff;
+.container_foto:hover img {
+	opacity: 0.1;
+	transform: scale(1.5);
+}
+
+.container_foto:hover article {
+	transform: translate(2px, -69px);
+	-webkit-transform: translate(2px, -69px);
+	-moz-transform: translate(2px, -69px);
+	-o-transform: translate(2px, -69px);
+	-ms-transform: translate(2px, -69px);
+}
+
+.container_foto:hover .ver_mas {
+	transform: translate(0px, 0px);
+	-webkit-transform: translate(0px, 0px);
+	-moz-transform: translate(0px, 0px);
+	-o-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	opacity: 1;
 }
 </style>
