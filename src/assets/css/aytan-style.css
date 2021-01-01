@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;0,800;1,300&display=swap');
+body {
+    background-color: #faf3f3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ----- navbar ----- */
+
+.navbar .container {
+    padding-left: 24px;
+    padding-right: 16px;
+}
+
+.btn-danger {
+    background-color: #FF1493!important;
+}
+
+.navbar {
+    background-color: #FF1493!important;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    /* border: 3px solid #fff; */
+    margin-top: 10px;
+    margin-bottom: 1px;
+    top: 0;
+}
+
+.navbar-brand img {
+    width: 130px;
+    height: 120px;
+}
+
+.navbar-toggler {
+    outline: none!important;
+    border: none!important;
+    background-color: rgba(136, 20, 47, 0.349)!important;
+}
+
+.nav-item {
+    margin: 0 1px;
+}
+
+.nav-link {
+    padding: 20px 15px!important;
+}
+
+
+/* .bordered {
+                        border: 3px solid#fff;
+                        border-radius: 5px;
+                        padding: 7px 12px;
+                    } */
+
+.active {
+    background-color: rgba(136, 20, 48, 0.46);
+}
+
+.nav-item:hover {
+    background-color: rgba(136, 20, 48, 0.46);
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    border: none;
+    display: none!important;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #navbarNav {
+        overflow-y: scroll !important;
+        /* max-height: 150px !important; */
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        position: absolute;
+    }
+    .navbar .nav-item .dropdown-menu {
+        border-radius: 0;
+        border: none;
+        border-top: 3px solid red;
+        margin-top: 0;
+        display: none;
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+
+/* ----- navbar.end// ----- */
+
+
+/* ----- contact ----- */
+
+#contact {
+    padding: 30px 0;
+}
+
+#contact form {
+    color: #646464;
+    font-size: 14px;
+}
+
+#contact label::after {
+    content: '*';
+    color: #FF1493;
+}
+
+.contact-info .fa {
+    color: #fff;
+    font-size: 12px!important;
+}
+
+.contact-info span {
+    background-color: #FF1493;
+    border-radius: 100%;
+    width: 25px;
+    height: 26px;
+    text-align: center;
+    display: inline-block;
+    margin: 1px 0;
+}
+
+.contact-info li {
+    line-height: 22px;
+    font-size: 14px;
+    color: #646464;
+    font-weight: bolder;
+    margin: 8px 0;
+}
+
+
+/* ----- contact.end// ----- */
+
+
+/* ----- footer ----- */
+
+#footer {
+    background-color: #FF1493;
+    padding: 25px 0;
+}
+
+.footer-logo {
+    width: 70px;
+    height: 70px;
+}
+
+.social-icons {
+    background-color: #fff;
+    border-radius: 100%;
+    width: 25px;
+    height: 24px;
+    padding: 2px 0;
+    text-align: center;
+    transition: 0.1s;
+    font-size: 12px;
+    margin: 1px 0;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.i-fb:hover {
+    background-color: #4267B2;
+    color: #fff;
+}
+
+.i-ins:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.i-lin:hover {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.socialmedia-icons a {
+    color: #3d3d3d;
+}
+
+
+/* ----- footer.end// ----- */
+
+
+/* ----- design ----- */
+
+#design {
+    padding: 50px 0;
+}
+
+#design a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.box-content {
+    padding: 10px;
+    margin: 30px;
+}
+
+.box-first {
+    border-top: 3px solid #007bff;
+    transition: 0.1s;
+}
+
+.box-first:hover {
+    border-top: 0;
+    border-bottom: 3px solid #007bff;
+}
+
+.box-second {
+    border-top: 3px solid #17a2b8;
+    transition: 0.1s;
+}
+
+.box-second:hover {
+    border-top: 0;
+    border-bottom: 3px solid #17a2b8;
+}
+
+.box-third {
+    border-top: 3px solid #dc3545;
+    transition: 0.1s;
+}
+
+.box-third:hover {
+    border-top: 0;
+    border-bottom: 3px solid #dc3545;
+}
+
+.box-fourth {
+    border-top: 3px solid #ffc107;
+    transition: 0.1s;
+}
+
+.box-fourth:hover {
+    border-top: 0;
+    border-bottom: 3px solid #ffc107;
+}
+
+.box-fifth {
+    border-top: 3px solid #fd7e14;
+    transition: 0.1s;
+}
+
+.box-fifth:hover {
+    border-top: 0;
+    border-bottom: 3px solid #fd7e14;
+}
+
+
+/* ----- design.end// ----- */
