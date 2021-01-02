@@ -13,9 +13,7 @@
                   filter="left-right"
                 />
                </h1>
-               </div>
-        
-          <h1>
+                <h1>
             <p class="lead">
               <strong
                 style="
@@ -38,6 +36,9 @@
               üçün veb-saytların yaradılması və dizayn xidmətləri mövcuddur. .
             </p>
           </h1>
+               </div>
+        
+         
         </div>
       </div>
     </div>
