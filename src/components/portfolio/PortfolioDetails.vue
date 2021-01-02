@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio-details">
     <div class="container">
-      <div class="row text-center">
+      <div class="row ">
         <!-- <div class="col col-md-6 col-lg-6 col-sm-12 col-xs-12">
           <carousel :navText="navText" :items="1">
             <img src="https://ideart.az/img/projects/friday.jpg" alt="" />

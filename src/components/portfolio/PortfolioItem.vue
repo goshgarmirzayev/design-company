@@ -2,13 +2,13 @@
   <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
     <figure
       class="bg_cover image_item"
-      style="background-image: url(https://www.uxkiller.com/images/1822.jpg)"
+      style=""
     >
       <div class="hover">
         <i class="fa fa-eye" aria-hidden="true"></i>
       </div>
     </figure>
-     <strong><a href="/">sayt.az</a></strong>
+     <strong><a href="https://qreact.net">qreact.net</a></strong>
   </div>
 </template>
 <style scoped>
@@ -16,6 +16,7 @@
   position: relative;
   /* width: 500px; */
   margin-top: 50px;
+  
 
 }
 
@@ -26,7 +27,10 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
+a{
+    text-decoration: none;
+    color: #ccc;
+}
 .image_item {
   cursor: pointer;
   position: relative;

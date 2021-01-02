@@ -13,3 +13,7 @@
     position: absolute;
     right: 0;
 }
+
+.image_item {
+    background-image: url("../img/qreact.png")
+}
