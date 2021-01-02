@@ -1,11 +1,10 @@
 <template>
   <div id="app">
     <Navbar/>
-    <br>
-    <br>
-    <br>
-    <br>
-    <router-view></router-view>
+    
+    <div style="margin-top:160px;">
+      <router-view></router-view>
+    </div>
     <Footer/>
   </div>
 </template>
