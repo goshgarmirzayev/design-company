@@ -1,24 +1,25 @@
-<template>
-  
-  
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto ">
-         <div class="ver_mas text-center">
+<template>  
+      <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12 container_foto ">
+        <router-link :to="'portfolio/'+slug">
+          <div class="ver_mas text-center">
             <span  class="lnr lnr-eye"><i class="fa fa-link"></i></span>
          </div>
          <article class="text-left">
-            <h2>TÍTULO DE <br>LA IMAGEN</h2>
-            <h4>Descripción corta de la imagen en cuestión</h4>
+            <h2>{{name}}</h2>
+            <h4>{{extra}}</h4>
          </article>
-         <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
+         <img :src="imgPath" alt="">
+        </router-link>
       </div>
 </template>
 <script>
 export default {
   props: {
     name:[String],
-    content:[String],
+    extra:[String],
     slug:[String],
-    description:[String]
+    description:[String],
+    imgPath:[String]
   },
   
 }
@@ -86,7 +87,7 @@ h1 {
 }
 
 .ver_mas {
-	background-color: #FEB66C;
+	background-color: #FF1493;
 	position: absolute;
 	width: 100%;
 	height: 70px;

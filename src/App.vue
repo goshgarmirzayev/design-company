@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-   
-    <Main/>
+    <Navbar/>
+    <br>
+    <br>
+    <br>
+    <br>
+    <router-view></router-view>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import Main from './components/main/Main.vue'
+require("./assets/css/carousel-customization.css");
+import Footer from './components/layouts/Footer.vue'
+import Navbar from './components/layouts/Navbar.vue'
 
 export default {
+  components: { Navbar, Footer },
   name: 'App',
-  components: {
-   Main
-  }
 }
 </script>

@@ -3,7 +3,7 @@
          <section id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-dark p-0 fixed-top">
             <div class="container">
-                <a class="navbar-brand " href="#"><img src="@/assets/img/ideart special ideas agency.jpg" alt="Logo"></a>
+                <router-link class="navbar-brand " :to="'/'" ><img src="@/assets/img/ideart special ideas agency.jpg" alt="Logo"></router-link >
               
                 <div class="socialmedia-icons">
                     <a href="#"><span class="social-icons i-fb"><i class="fab fa-facebook-f"></i></span></a>
@@ -17,21 +17,21 @@
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active ">
-                            <a class="nav-link" href="#">
+                            <router-link :to="'/'" v-scroll-to="'#banner'" class="nav-link" href="#">
                                 <div class="bordered">ƏSAS SƏHİFƏ</div><span class="sr-only">(current)</span>
-                            </a>
+                            </router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">XİDMƏTLƏRİMİZ</a>
+                             <router-link :to="'/'" v-scroll-to="'#services'" class="nav-link" href="#">XİDMƏTLƏRİMİZ</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ÜSTÜNLÜKLƏRİMİZ</a>
+                            <router-link :to="'/'" v-scroll-to="'#whyus'" class="nav-link" href="#">ÜSTÜNLÜKLƏRİMİZ</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">BİZİ SEÇƏNLƏR</a>
+                             <router-link :to="'/'" v-scroll-to="'#partners'" class="nav-link" href="#">BİZİ SEÇƏNLƏR</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ƏLAQƏ</a>
+                             <router-link :to="'/'" v-scroll-to="'#contact'" class="nav-link" href="#">ƏLAQƏ</router-link>
                         </li>
                         <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdownMenuLink" data-toggle="dropdown">

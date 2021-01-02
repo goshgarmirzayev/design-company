@@ -3,7 +3,7 @@
         <div class="row">
           <div class="col-1"><i :class="icon"></i></div>
           <div class="col-11">
-            <h4><strong>{{title}}</strong></h4>
+            <h4 style="    font-weight: 300;"><strong>{{title}}</strong></h4>
             <div class="row">
               <div class="col-12">
                 <p>

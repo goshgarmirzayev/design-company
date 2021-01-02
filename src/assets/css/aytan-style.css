@@ -12,6 +12,18 @@ body {
     padding-right: 16px;
 }
 
+.navbar {
+    box-shadow: 0 1px 20px -5px #FF1493!important;
+}
+
+hr {
+    background-image: -webkit-linear-gradient(left, transparent, #DBDBDB, transparent);
+    background-image: linear-gradient(to right, transparent, #DBDBDB, transparent);
+    border: 0;
+    height: 1px;
+    margin: 22px 0;
+}
+
 .btn-danger {
     background-color: #FF1493!important;
 }
@@ -22,7 +34,7 @@ body {
 }
 
 .navbar-brand {
-    /* border: 3px solid #fff; */
+    border: 3px solid #fff;
     margin-top: 10px;
     margin-bottom: 1px;
     top: 0;
@@ -261,3 +273,23 @@ body {
 
 
 /* ----- design.end// ----- */
+
+
+/*Owl Caorusel*/
+
+.owl-item {
+    background: transparent;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Body */
+
+body {
+    background-color: white;
+}

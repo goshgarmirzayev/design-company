@@ -47,7 +47,7 @@ export default {
 .whyme{
         background: #f4f4f4;
     border-top: 5px solid #f1f1f1;
-    /* margin: 30px 0; */
+    margin: 30px 0;
     padding: 50px 0;
 }
 h1{

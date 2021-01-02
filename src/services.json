@@ -1,0 +1,49 @@
+[{
+        "nameAZ": "DAXİLİ VƏ ÇÖL",
+        "extraAZ": "Reklamı",
+        "slug": "outdoor",
+        "imgPath": "https://ideart.az/img/projects/billboard-w.jpg"
+    },
+    {
+        "nameAZ": "DİZAYN XİDMƏTİ",
+        "extraAZ": "İmic",
+        "slug": "design",
+        "imgPath": "https://ideart.az/img/projects/Dizayn-w.jpg"
+    },
+    {
+        "nameAZ": "RƏQƏMSAL",
+        "extraAZ": "Marketinq",
+        "slug": "marketinq",
+        "imgPath": "https://ideart.az/img/projects/reqemsal%20marketinq.png"
+    },
+    {
+        "nameAZ": "MEDİA VƏ PR XİDMƏTİ",
+        "extraAZ": "TV,radio və PR strategiya",
+        "slug": "media_pr",
+        "imgPath": "https://ideart.az/img/projects/media-w.jpg"
+    },
+    {
+        "nameAZ": "VEB",
+        "extraAZ": "Saytların hazırlanması",
+        "slug": "web",
+        "imgPath": "https://ideart.az/img/projects/web-w.jpg"
+    },
+    {
+        "nameAZ": "ÇAP XİDMƏTLƏRİ",
+        "extraAZ": "Məhsulları",
+        "slug": "polygraphy",
+        "imgPath": "https://ideart.az/img/projects/Poliqrafiya-w.jpg"
+    },
+    {
+        "nameAZ": "REKLAM",
+        "extraAZ": "Qurğularının istehsalı",
+        "slug": "production",
+        "imgPath": "https://ideart.az/img/projects/icon-ideart-sayt.png"
+    },
+    {
+        "nameAZ": "PROMO",
+        "extraAZ": "Məhsullar",
+        "slug": "production",
+        "imgPath": "https://ideart.az/img/projects/promo-w.jpg"
+    }
+]

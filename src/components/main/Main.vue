@@ -1,40 +1,37 @@
 <template>
   <div>
-    <Navbar/>
     <div class="site-content">
-      <banner></banner>
-      <service-total></service-total>
-      <OurAdvantages/>
-      <portfolio-total></portfolio-total>
-      <Contact />
+      <banner id="banner"></banner>
+      <service-total id="services"></service-total>
+      <OurAdvantages id="whyus"/>
+      <customer-total id="partners"></customer-total>
+      <portfolio-total id="portfolio"></portfolio-total>
+      <Contact id="contact" />
     </div>
-
-    <Footer />
   </div>
 </template>
 
 <script>
 require("../../assets/css/aytan-style.css");
-import Navbar from "../layouts/Navbar.vue";
-import Footer from "../layouts/Footer.vue";
 import Contact from "../contact/Contact.vue";
 import ServiceTotal from "../services/ServiceTotal.vue";
 import PortfolioTotal from "../portfolio/PortfolioTotal.vue";
 import OurAdvantages from "../advantages/OurAdvantages.vue";
 import Banner from '../banner/Banner.vue';
+import CustomerTotal from '../customers/CustomerTotal.vue';
 export default {
   components: {
-    Navbar,
-    Footer,
     Contact,
     ServiceTotal,
     PortfolioTotal,
     OurAdvantages,
-    Banner
+    Banner,
+    CustomerTotal
   },
 };
 </script>
-<style scoped>
+<s,
+    CustomerTotaltyle scoped>
 .site-content {
   margin-top: 150px;
 }
